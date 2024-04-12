@@ -1,5 +1,3 @@
-# Название сценария
+# Настройка Gateway API в кластере Yandex Managed Service for Kubernetes®
 
-Описание сценария и инструкция по его применению.
-
-Для практических руководств обязательна ссылка на документацию.
+Вы можете организовать доступ к приложениям, которые находятся в тестовых средах `dev` и `prod`, с помощью [Yandex Application Load Balancer](https://yandex.cloud/ru/docs/application-load-balancer) через [Gateway API](https://github.com/kubernetes-sigs/gateway-api). Подготовка инфраструктуры для [Managed Service for Kubernetes®](https://yandex.cloud/ru/docs/managed-kubernetes) через Terraform описана в [практическом руководстве](https://cloud.yandex.ru/ru/docs/managed-kubernetes/tutorials/marketplace/gateway-api), необходимый для настройки конфигурационный файл [k8s-gateway-api.tf](k8s-gateway-api.tf) расположен в этом репозитории.
