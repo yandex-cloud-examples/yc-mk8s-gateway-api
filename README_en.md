@@ -1,0 +1,3 @@
+# Configuring Gateway API in a Yandex Managed Service for Kubernetes® cluster
+
+You can set up access to applications in the `dev` and `prod` test environments using [Yandex Application Load Balancer](https://yandex.cloud/docs/application-load-balancer) via Gateway API. See this [tutorial](https://yandex.cloud/docs/managed-kubernetes/tutorials/marketplace/gateway-api) to learn how to prepare the infrastructure for [Managed Service for Kubernetes®](https://yandex.cloud/docs/managed-kubernetes) using Terraform. This repository contains the configuration file you will need: [k8s-gateway-api.tf](k8s-gateway-api.tf).
